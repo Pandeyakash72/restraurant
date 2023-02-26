@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ),url(https://a.cdn-hotels.com/gdcs/production141/d778/6b200721-9661-4680-aca2-d6e33ce46cf0.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.list{
+    
+    display: flex;
+    align-items: centers;
+    gap: 80px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.in{
+    text-decoration: none;
+    color: #ffc233;
+}
+.a,.z{
+    background-color: #ff505f;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    border: none;
+    
+
+
+}
+.a{
+    
+    font-size: 20px;
+    padding: 2px;
+    
+}
+.z{
+    font-size: 20px;
+    padding: 3px;
+}
+.content{
+    font-size: 90px;
+    font-weight: bolder;
+    color: #ffc233;
+    font-family: 'Dela Gothic One', cursive;
+
+}
+main{
+    text-align: center;
+    padding-top: 90px;
+}
+.logo{
+    font-size: larger;
+}
+.a1{
+    position: relative;
+    right: 10px;
+}
+.a2{
+    padding-top: 30px;
+    position: relative;
+    right: 10px;
+}
+.ok{
+    border-radius: 20%;
+    height: 50px;
+    position: relative;
+    left: 14px;
+    bottom: 30px;
+    
+}
+.oo{
+    border-radius: 10%;
+    height: 50px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
